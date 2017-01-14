@@ -1,0 +1,53 @@
+2 interviews - 45 min each
+-networking- deeper dive into TCP, three way handshake, blocking, wait times - TCP/UDP, load balancing algorthims, DNS
+=> typical quesiton involves description of internet protocols
+=> troubleshoot a network issue
+-unix & systems internals
+=> internals: filesystems, sockets, inode, system calls enables sockets
+=> systems: process & memory management, unix process management, how processes can communicate
+=> scripting: whiteboarding (ask questions, think out loud, look it over, fix bugs)
+
+info session w/ hiring manager: role, datacenter, q&a
+
+-------
+Operating Systems: Know about processes, threads and concurrency issues. Know about locks and mutexes and semaphores and monitors and how they work. Know about deadlock and livelock and how to avoid them. Know what resources a processes needs, and a thread needs, and how context switching works, and how it's initiated by the operating system and underlying hardware. Know a little about scheduling. The world is rapidly moving towards multi-core, so know the fundamentals of "modern" concurrency constructs.
+
+(From "MTV Interviewing@Google - SRE.pdf"):
+Unix/Linux internals: system calls, signals, the kernel, command lines
+shell, network & application tracing
+systems administration
+file systems
+DNS
+TCP/IP networking
+
+=> Algorithmns: Big O notation, run-time characteristics
+=> Sorting: common sorting functions, input data efficiency (in terms of rutime & space used)
+=> Data structures: trees, hash tables, stacks, arrays, linked lists, priority queues
+=> Math: probability theory, combinatorics
+=> Recursion: recursion vs iteration
+=> Unix/Linux Systems: Kernels, libraries, system calls, memory management, permissions, name-base servers, file systems, client-server protocols, understanding the shell.
+=> System Design: distributed systems, system design constraints, simplicity, limitations, tradeoffs, how the internet works (routers, DNS, load balancers, firewalls)
+=> Networking: TCP/IP, UDP, ICMP, MAC addresses, IP packets, DNS, OSI layers, load balancing
+
+How search works: https://www.google.com/insidesearch/howsearchworks/thestory/
+
+The art of UNIX programming: http://www.catb.org/esr/writings/taoup/html/
+
+(From "Google Interview Prep SE 2.pdf"):
+System design:
+  - powers of 2 (binary)
+  - express mega/giga/etc in binary & scientific notation
+  - explain & justify assumptions
+  - know searching & sorting algorithmns: quicksort, mergesort, hash tables
+  -> explain thought process
+
+Google infrastructure papers:
+ - GFS (google file system): https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf
+ - BigTable: https://static.googleusercontent.com/media/research.google.com/en//archive/bigtable-osdi06.pdf
+ - MapReduce: https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf
+
+ MIT OpenCourseware recommended:
+  - 6.006 (Introduction to Algorithms)
+  - 6.033 (Computer System Engineering)
+  - 6.172 (Performance Engineering of Software Systems)
+  - 6.717 (Software Engineering for Web Applications)
