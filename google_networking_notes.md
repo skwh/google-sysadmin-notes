@@ -4,6 +4,8 @@ Should address:
 * deeper dive into TCP, three way handshake, **blocking, wait times** - TCP/UDP, **load balancing algorthims, DNS**
 * description of internet protocols
 
+---
+
 # Networking notes
 
 ## OSI Model
@@ -292,3 +294,15 @@ DNS uses UDP to execute its queries against various domain name servers.
 ## DHCP
 
 DHCP stands for Dynamic Host Configuration Protocol.
+
+## load balancing
+
+## blocking
+
+simply means that a program is structured in such a way that while it is executing, it is holding up the execution of other programs.
+
+also:
+
+>"blocking network: In telecommunications, a network that has fewer transmission paths than would be required if all users were to communicate simultaneously. Note: Blocking networks are used because not all users require service simultaneously. Certain statistical distributions apply to the patterns of user demand." -ITS
+
+## wait times
